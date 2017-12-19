@@ -86,8 +86,11 @@ class Book
 end
 
 slapstick = Book.create("Slapstick", "Kurt Vonnegut", 18746)
-grapes_of_wrath = Book.create("The Grapes of Wrath",
-  "John Steinbeck", 14642)
+grapes_of_wrath = Book.create(
+  "The Grapes of Wrath",
+  "John Steinbeck",
+  14642
+)
 on_the_road = Book.create("On The Road", "Jack Kerouac", 15130)
 
 puts "Browse the books a couple of times"
